@@ -1,0 +1,20 @@
+article > header {
+    > .text {
+        display: inline;
+    }
+
+    > .buttons {
+        float: right;
+
+        > {
+            button {
+                display: inline;
+                width: fit-content;
+                position: relative;
+                top: -13px;
+                right: -5px;
+                margin-left: 7px;
+            }
+        }
+    }
+}
